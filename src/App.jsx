@@ -7,6 +7,7 @@ import Tela04 from "./components/Tela04";
 import Tela05 from "./components/Tela05";
 import Tela07 from "./components/Tela07";
 import Tela08 from "./components/Tela08";
+import Tela09 from "./components/Tela09";
 
 export const ProjetoContext = createContext();
 
@@ -21,8 +22,9 @@ function App() {
       <Tela04 /> 
       <Tela05 />
       <Tela06 />
-      <Tela07 />*/}
-      <Tela08 />
+      <Tela07 />
+      <Tela08 />*/}
+      <Tela09 />
     </ProjetoContext.Provider>
   );
 }
